@@ -6,7 +6,7 @@ from diffusion import sample,T
 import os
 
 """
-given a label of the cifar10 dataset, predict the image
+given a label of the stl10 dataset, predict the image
 example: input "dog", output the predicted image
 """
 
@@ -94,4 +94,5 @@ if __name__ == "__main__":
         
         print("Enter a label (type 'labels' to see all labels): ")
         print("Enter 'exit' to quit.")
+
         input_label = input().strip()
