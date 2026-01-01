@@ -81,7 +81,7 @@ if __name__ == "__main__":
     input_label = input().strip()
     while input_label.lower() != "exit":
         if input_label.lower() == "labels":
-            print("CIFAR-10 Labels:")
+            print("STL-10 Labels:")
             for lbl in pred_dict.keys():
                 print(f"- {lbl}")
         else:
@@ -96,3 +96,4 @@ if __name__ == "__main__":
         print("Enter 'exit' to quit.")
 
         input_label = input().strip()
+
